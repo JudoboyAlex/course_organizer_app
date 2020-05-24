@@ -15,9 +15,21 @@ form {
   cursor: pointer;
   font-size: 1rem;
 }
+
 .complete-btn {
   background: rgb(11, 212, 162);
 }
+
 .todo-item {
   padding: 0rem 0.5rem;
 }
+
+ul.course-category-list{
+    text-align: center;
+    display: inline-flex;
+}
+
+li.course-category-item{
+    display: inline-block;
+}
+

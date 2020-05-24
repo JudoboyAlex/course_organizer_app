@@ -12,16 +12,50 @@
     <header>
         <h1>My Course Organizer</h1>
     </header>
-    <form>
-        <input type="text" class="course-input" />
-        <button class="course-button" type="submit">
+    <form class="course-category-form">
+        <input type="text" class="course-category-input" />
+        <button class="course-category-button" type="submit">
           <i class="fas fa-plus-square"></i>
         </button>
       </form>
     <div class="course-container">
-        <ul class="course-list"></ul>
+        <ul class="course-category-list">
+            <div class="course-category">
+                <li class="course-category-item">React</li>
+                <button class="trash-btn">
+                    <i class="fas fa-trash"></i>
+                </button>
+                    <form class="course-form">
+                        <input type="text" class="course-input" />
+                        <button class="course-button" type="submit">
+                        <i class="fas fa-plus-square"></i>
+                        </button>
+                    </form>
+                    <div>
+                        <li>React Hooks</li>
+                    </div>
+                    <div>
+                        <li>Redux</li>
+                    </div>
+            </div>
+            <div class="course-category">
+                <li class="course-category-item">Java</li>
+                <button class="trash-btn">
+                    <i class="fas fa-trash"></i>
+                </button>
+                    <form class="course-form-two">
+                        <input type="text" class="course-input-two" />
+                        <button class="course-button" type="submit">
+                        <i class="fas fa-plus-square"></i>
+                        </button>
+                    </form>
+                    <div>
+                        <li>Java8</li>
+                    </div>
+            </div>
+
+        </ul>
     </div>
-    
     <script src="./app.js"></script>
 </body>
 </html>
